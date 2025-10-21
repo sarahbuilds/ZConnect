@@ -34,13 +34,14 @@
   margin: 0;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #0f172a;
+  color: #1e293b;
 }
 
 .card-subtitle {
   margin: 0.5rem 0 0;
-  color: #475569;
+  color: #334155;
   line-height: 1.5;
+  font-weight: 500;
 }
 
 .status-badge {
@@ -126,10 +127,7 @@
 .interest-id {
   font-size: 0.85rem;
   font-weight: 700;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #6366f1;
   letter-spacing: 0.08em;
   text-transform: uppercase;
   position: relative;
@@ -139,7 +137,7 @@
 .interest-label {
   font-size: 1.05rem;
   font-weight: 600;
-  color: #0f172a;
+  color: #1e293b;
   position: relative;
   z-index: 1;
 }
@@ -150,10 +148,7 @@
   right: 1.25rem;
   font-size: 1.25rem;
   font-weight: 800;
-  background: linear-gradient(135deg, #6366f1, #8b5cf6);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #6366f1;
   z-index: 1;
 }
 
@@ -168,14 +163,15 @@
 
 .summary-title {
   margin: 0;
-  color: #0f172a;
+  color: #1e293b;
   font-size: 1.1rem;
   font-weight: 600;
 }
 
 .summary-placeholder {
   margin: 0.75rem 0 0;
-  color: #64748b;
+  color: #475569;
+  font-weight: 500;
 }
 
 .selection-list {
@@ -207,15 +203,16 @@
   border: none;
   border-radius: 100px;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  color: #ffffff;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   padding: 1rem 2.5rem;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
   position: relative;
   overflow: hidden;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .primary-button::before {
