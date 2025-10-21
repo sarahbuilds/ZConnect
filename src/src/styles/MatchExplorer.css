@@ -1,0 +1,143 @@
+.match-container {
+  width: 100%;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.1);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.card-subtitle {
+  margin: 0.5rem 0 0;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.candidate-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.candidate-card {
+  border: 1px solid #e2e8f0;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.candidate-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.candidate-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  background-color: #e0f2fe;
+  color: #0369a1;
+  border-radius: 9999px;
+  padding: 0.25rem 0.75rem;
+}
+
+.candidate-address {
+  font-family: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  color: #0f172a;
+  font-size: 0.9rem;
+}
+
+.secondary-button {
+  border: none;
+  border-radius: 0.75rem;
+  background-color: #111827;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 0.65rem 1rem;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.secondary-button:hover:not(:disabled) {
+  background-color: #1f2937;
+  transform: translateY(-1px);
+}
+
+.secondary-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.match-result {
+  margin: 0;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+}
+
+.match-result.positive {
+  background-color: #dcfce7;
+  color: #047857;
+}
+
+.match-result.negative {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.error-banner,
+.info-banner {
+  margin: 0;
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.error-banner {
+  background-color: #fee2e2;
+  color: #b91c1c;
+}
+
+.info-banner {
+  background-color: #eef2ff;
+  color: #3730a3;
+}
+
+.empty-state {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5rem;
+  }
+
+  .candidate-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
