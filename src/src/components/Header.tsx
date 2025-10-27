@@ -7,7 +7,7 @@ export function Header() {
       <div className="header-container">
         <div className="header-content">
           <div className="header-left">
-            <h1 className="header-title">Zama Interest Connect</h1>
+            <h1 className="header-title">ZConnect</h1>
             <span className="header-badge">Encrypted matching</span>
           </div>
           <ConnectButton />

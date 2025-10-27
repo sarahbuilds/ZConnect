@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔐 ZamaConnect
+# 🔐 ZConnect
 
 ### Privacy-Preserving Interest Matching on Ethereum
 
@@ -41,7 +41,7 @@
 
 ## 🌟 Overview
 
-**ZamaConnect** is a decentralized application (dApp) that enables users to discover others with shared interests while keeping their preferences completely private. Built on Ethereum using Zama's Fully Homomorphic Encryption (FHE) technology, ZamaConnect allows encrypted on-chain data to be computed without ever being decrypted, ensuring absolute privacy.
+**ZConnect** is a decentralized application (dApp) that enables users to discover others with shared interests while keeping their preferences completely private. Built on Ethereum using Zama's Fully Homomorphic Encryption (FHE) technology, ZamaConnect allows encrypted on-chain data to be computed without ever being decrypted, ensuring absolute privacy.
 
 Unlike traditional matching platforms where your data is stored in plain text on centralized servers, ZamaConnect encrypts your interests client-side before they ever touch the blockchain. Even the smart contract operators cannot see what you like—only you can decrypt your match results.
 
