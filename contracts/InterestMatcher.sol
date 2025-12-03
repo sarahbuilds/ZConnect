@@ -2,11 +2,11 @@
 pragma solidity ^0.8.27;
 
 import {FHE, ebool, euint32, externalEuint32} from "@fhevm/solidity/lib/FHE.sol";
-import {SepoliaConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
+import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
 /// @title Zama-based confidential interest matcher
 /// @notice Players store encrypted interests and request encrypted match indicators
-contract InterestMatcher is SepoliaConfig {
+contract InterestMatcher is ZamaEthereumConfig {
     struct PlayerPreferences {
         euint32 first;
         euint32 second;

@@ -1,7 +1,7 @@
 import type { Abi } from 'viem';
 
 export const CONTRACT_ADDRESS = (
-  import.meta.env.VITE_INTEREST_MATCHER_ADDRESS || '0xc1a6ef590d885830a2FE1e67dF1f9119018CBe4B'
+  import.meta.env.VITE_INTEREST_MATCHER_ADDRESS || '0xd2ae3BC81dD450f315005357FD7a826dABc445c3'
 ) as `0x${string}`;
 
 const CONTRACT_ABI_DEFINITION = [
